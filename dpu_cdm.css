@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media all and (max-width: 1026px) and (min-width: 368px) {
+  .nav_top_left_text_container {
+	float: left;
+	width: 205px;
+}
+  
+  ul#mega li .sub ul {
+list-style: none;
+	margin: 0; padding: 0;
+	width: 353px;
+	float: left;
+}
+
+  
+  }
+
+/*----------------------------------------Landing Page Styles------------------------------------------------------*/
+
+.abouttextportal {
+width: 230px;
+padding: 0 10px 10px 10px;
+margin-right: 30px;
+margin-left: 0;
+
+	}
+
+
+#dpu_vincentian {border-top: 1px solid #333;}
+	
+.dpu_portalcontainertitle{
+	
+	height:30px;
+	margin:0;
+	padding-top: 5PX;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.dpu_portalcontainertitle  h3{
+	text-align:center;
+}
+.dpu_portalcontainerleft img {
+	margin-left: 10px;
+	margin-right: 55px;
+	padding: 5px;
+	border: 1px solid #CCC !important;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	width:270px;
+	margin-bottom: 10px;
+}
+
+.dpu_portalcontainerleft{
+	width: 45%;
+	height: 100%;
+	float: left;
+}
+
+.dpu_portalcontainerright{
+	/*width:300px;*/
+	height:100%x;
+	float:left;
+}
+
+.dpu_portalcontainerright ul li {
+	list-style:none;	
+	padding: 4px; 
+	font-size: 12px;	
+}
+
+.dpu_portalbox_outer {
+	width: 1002px;
+margin-left: 0px;
+margin-top: -30px;
+
+
+}
+
+
+.dpu_portalbox_inner {
+-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+background:#ccc;
+height:512px;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+
+.dpu_portalbox_inner_left {
+
+height: 100%;
+width: 70%;
+float: left;
+background:#FFF;
+
+}
+.dpu_portalbox_inner_right {
+width: 23%;
+float: left;
+padding: 0 0 10PX 15PX;
+
+}
+
+
+/* ------------------------------- Facet Styles --------------------------------------------------*/
+#results_tn_accordion ul.cdm_style {text-transform:capitalize;}
+
+
+
+
+/* ------------------------------- Image Styles --------------------------------------------------*/
+
+#carouselcontainer {
+    width: 980px;
+    float: left;
+    clear: left;   
+    /*height: 222px;*/
+    padding:10px;
+    border: 1px solid #CCCCCC;
+	background-color:#EEEEEE;
+    margin:25px 0 0 0;
+    position:relative;
+}
+
+#carousel { 
+    position:/* absolute */ relative !important;
+    /*top:125px; left:120px; */
+    overflow:hidden;
+    width:985px; 
+    border:/* 1px solid #909090; */ none;
+    /*padding: 0 0 10px 0;*/
+}
+#carousel .prev, #carousel .next { 
+    width:43px; height:43px; 
+    position:absolute; top:70px;
+    background:url(http://www.libraries.psu.edu/etc/designs/psul/images/carousel_arrows.png) no-repeat;
+    z-index:20000;
+}
+#carousel .prev { 
+    left:10px; background-position:top left;
+}
+#carousel .prev:hover { 
+    background-position:bottom left;
+}
+#carousel .next { 
+    right:10px; background-position:top right;
+}
+#carousel .next:hover { 
+    background-position:bottom right;
+}
+#carousel ul { 
+    margin:0; padding:0;
+}
+#carousel li { 
+    width:980px; height:200px !important; position:relative;
+    margin: 0;
+    padding: 0;
+}
+#carousel li a { 
+    margin:0; padding:0; border:none; text-decoration:none !important;
+}
+#carousel li .text-box { 
+   height: 55px;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 371px;
+background: #333;
+padding: 0 0 0 10px;
+opacity: 0.8;
+/* IE 5-7 */
+  filter: alpha(opacity=75);
+border-top: 1px solid #fff;
+border-right: 1px solid #fff;
+    
+}
+#carousel li .title { 
+    display:block;
+    color:#fff; margin:0; text-decoration:none !important;
+    font:bold 16px Arial, Helvetica, sans-serif;
+    padding:3px 0 3px 0;
+}
+#carousel li .description { 
+    color:#fff; text-decoration:none !important;
+    font:11px Arial, Helvetica, sans-serif;
+    line-height:10px;
+    border: none;
+    padding: 0 5px 0 0;
+    
+}
+#carousel li .more { 
+    color:#fff; font:bold 10px "Lucida Grande", Arial, Helvetica, sans-serif; 
+    text-decoration:none !important;
+}
+#carousel li img.screenshot { 
+    position:absolute; left:0; top:0; 
+    border: none;
+    width:980px;
+}
+#carousel h2 { 
+    color:#fff;
+    position:absolute; left:0; top:0; 
+    z-index:20000; 
+    background:url(../images/news_header.png);
+    width:100%; height:22px;
+    text-indent:-9999px;
+    margin: 0;
+    padding: 0;
+}
+#carousel_ltail { 
+    position:absolute; left:0; top:212px; 
+    width:10px; height:10px; 
+    background:url(../images/news_ltail.png); 
+    display:block;
+    z-index:20000;
+}
+#carousel_rtail { 
+    position:absolute; right:0; top:212px; 
+    width:10px; height:10px; 
+    background:url(../images/news_rtail.png); 
+    display:block;
+    z-index:20000;
+}
+	
+
+/*--------------------------------------------Footer----------------------------------------------------------*/
+p.dpuFooter {padding-left:10px}
+.dpuFooter {color:#525252; padding-left: 15px;}
+.dpuFooter a:link, .dpuFooter a:visited, .dpuFooter a:hover {color:#ffffff;}
+#nav_footer {
+height: 70px;
+width: 100%;
+background-color: #A9A9A9;
+border: solid black;
+margin: 18px 0 0 0;
+overflow: hidden;
+border-width: 1px 0 1px 0;
+}
