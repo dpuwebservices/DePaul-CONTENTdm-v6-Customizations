@@ -4,6 +4,15 @@ CONTENTdm Customization Code
 
 The scripts, css and html files listed below were used to add customize the landing page of CONTENTdm 6.1 to allow for an updated slideshow, drop down menus, and placement of the search bar in a more prominent area on the page.  These changes have been applied from 6.0 – 6.1 and should remain in place as CONTENT performs upgrades.  
 
+Prepared & developed by:
+Jim LeFager
+Web Applications Librarian
+DePaul University Library
+
+
+--------------------------------------------------
+Files Included:  
+
 Scripts: 
 
 navbar.js
@@ -12,12 +21,12 @@ jquery.easing.1.3.js
 jquery.cycle.all.latest.js
 menu.js
 
-CSS
+CSS:
 
 dpu_cdm.css
 menu.css
 
-HTML
+HTML:
 index.html
 
 --------------------------------------------------
