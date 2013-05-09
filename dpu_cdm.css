@@ -1,7 +1,7 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document FOR DePaul CONTENTdm V. 6 customizations */
 
-
+/*Media query to adjust nav for page size*/
 @media all and (max-width: 1026px) and (min-width: 368px) {
   .nav_top_left_text_container {
 	float: left;
@@ -14,8 +14,6 @@ list-style: none;
 	width: 353px;
 	float: left;
 }
-
-  
   }
 
 /*----------------------------------------Landing Page Styles------------------------------------------------------*/
@@ -81,7 +79,6 @@ margin-top: -30px;
 
 
 }
-
 
 .dpu_portalbox_inner {
 -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
